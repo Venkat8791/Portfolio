@@ -1,0 +1,27 @@
+.projectCard {
+  display: flex;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.projectCard:hover {
+  cursor: pointer;
+  background-color: rgb(34, 49, 86);
+}
+
+.projectImg {
+  width: 25%;
+  height: auto;
+  margin: 0.5rem 0.5rem;
+  object-fit: contain;
+}
+
+.projectDescription {
+  width: 75%;
+  margin: 0.5rem 0.5rem;
+}
+
+.projectDescription p {
+  margin-top: 0.5rem;
+}

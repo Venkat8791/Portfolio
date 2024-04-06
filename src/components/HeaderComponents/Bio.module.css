@@ -1,0 +1,18 @@
+.name,
+.designation {
+  margin-bottom: 0.625rem;
+  color: rgb(226, 232, 240);
+}
+
+.info {
+  color: rgb(148, 163, 184);
+}
+
+.name {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.designation {
+  font-size: 1.25rem;
+}
