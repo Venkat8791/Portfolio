@@ -9,10 +9,10 @@ function Navigation() {
           <a href="/">About</a>
         </li>
         <li className={styles["list-item"]}>
-          <a href="/">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li className={styles["list-item"]}>
-          <a href="/">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
       </ul>
     </nav>

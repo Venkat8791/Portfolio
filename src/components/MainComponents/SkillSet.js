@@ -2,11 +2,12 @@ import React from "react";
 import Skill from "./Skill";
 import styles from "./SkillSet.module.css";
 
-function SkillSet() {
+function SkillSet({ skills }) {
   return (
     <ul className={styles.skillset}>
-      <Skill />
-      <Skill />
+      {skills.map((skill) => (
+        <Skill skillName={skill} />
+      ))}
     </ul>
   );
 }

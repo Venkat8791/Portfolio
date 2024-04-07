@@ -1,7 +1,6 @@
 .projectCard {
   display: flex;
   margin-top: 3rem;
-  padding: 0.5rem;
   border-radius: 0.5rem;
 }
 
@@ -13,15 +12,13 @@
 .projectImg {
   width: 25%;
   height: auto;
-  margin: 0.5rem 0.5rem;
   object-fit: contain;
 }
 
-.projectDescription {
+.project {
   width: 75%;
-  margin: 0.5rem 0.5rem;
 }
 
-.projectDescription p {
-  margin-top: 0.5rem;
+.projectDescription {
+  color: rgb(148, 163, 184);
 }

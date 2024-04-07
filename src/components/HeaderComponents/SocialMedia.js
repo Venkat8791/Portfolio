@@ -3,7 +3,7 @@ import Icon from "./Icon";
 import styles from "./SocialMedia.module.css";
 
 function SocialMedia() {
-  const icons = ["github", "facebook", "twitter", "linkedin"];
+  const icons = ["github", "facebook", "twitter", "linkedin", "yahoo", "skype"];
   return (
     <ul className={styles.socialmedia}>
       {icons.map((icon) => (

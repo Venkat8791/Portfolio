@@ -5,24 +5,33 @@ function AboutMe() {
   return (
     <div className={styles.aboutme}>
       <p>
-        Back in 2012, I decided to try my hand at creating custom Tumblr themes
-        and tumbled head first into the rabbit hole of coding and web
-        development. Fast-forward to today, and I've had the privilege of
-        building software for an advertising agency, a start-up, a huge
-        corporation, and a digital product studio.
+        In the year 2018, I embarked on a journey into the realm of software
+        development, driven by a passion for problem-solving and a curiosity for
+        the intricacies of technology. It all began during my pursuit of a
+        Bachelor's Degree, where I vividly recall the moment I wrote my very
+        first line of code in C: "Hello, World." With each keystroke, a new
+        world of possibilities unfolded before me, igniting a flame of
+        excitement that would guide me through the years to come.
       </p>
       <p>
-        My main focus these days is building accessible user interfaces for our
-        customers at Klaviyo. I most enjoy building software in the sweet spot
-        where design and engineering meet — things that look good but are also
-        built well under the hood. In my free time, I've also released an online
-        video course that covers everything you need to know to build a web app
-        with the Spotify API.
+        Throughout my academic journey, I eagerly delved into the depths of
+        programming languages, from C and C++ to Python, Java, and an array of
+        frontend and backend technologies. But my fascination extended beyond
+        mere syntax; I yearned to comprehend the inner workings of computers
+        themselves. Operating Systems, Networking, Microprocessors—each facet of
+        technology offered a new puzzle to unravel, a new challenge to conquer.
       </p>
       <p>
-        When I'm not at the computer, I'm usually rock climbing, reading,
-        hanging out with my wife and two cats, or running around Hyrule
-        searching for Korok seeds.
+        As my career as a software developer progressed within the dynamic
+        environment of a tech company, I remained committed to continuous growth
+        and innovation. With each project and challenge encountered, I seized
+        the opportunity to further hone my skills and deepen my understanding of
+        the intricacies of software development. Every obstacle was met with a
+        determination to overcome, fueled by a relentless pursuit of mastery and
+        a passion for creating impactful solutions.As I navigate the
+        ever-evolving landscape of technology, I eagerly anticipate uncovering
+        the next chapter in my journey as a software developer, embracing new
+        challenges and opportunities for growth with enthusiasm.
       </p>
     </div>
   );
