@@ -1,0 +1,40 @@
+.nav {
+  /* margin: 10px; */
+  /* padding: 10px; */
+  margin-top: 5rem;
+}
+
+ul.navmenu li {
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-bottom: 0.625rem;
+  font-weight: 600;
+  position: relative;
+  transition: padding-left 0.3s ease;
+}
+
+ul.navmenu li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%; /* Vertically center the line */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+  height: 2px; /* Thickness of the line */
+  width: 0; /* Start with no width */
+  background: white;
+  transition: width 0.3s ease; /* Smooth animation */
+}
+
+ul.navmenu li:hover {
+  color: rgb(226, 232, 240);
+  padding-left: 30px;
+}
+
+ul.navmenu li:hover::before {
+  width: 20px; /* Length of the line */
+}
+
+.list-item a {
+  text-decoration: none;
+  color: rgb(148, 163, 184);
+}

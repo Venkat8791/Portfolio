@@ -1,5 +1,5 @@
 import React from "react";
-import Bio from "./Bio";
+import Bio from "../Bio/Bio";
 import styles from "./Header.module.css";
 
 function Header() {

@@ -1,8 +1,8 @@
 import React from "react";
-import ExperienceCard from "./ExperienceCard";
 import styles from "./ExperienceSection.module.css";
+import ExperienceCard from "./ExperienceCard";
 function ExperienceSection() {
-  const skills = ["React", "Java", "SpringBoot", "Oracle", "Kafka", "Miracle"];
+  const skills = ["React", "Java", "SpringBoot", "Oracle", "Kafka"];
   return (
     <div className={styles.experienceSection} id="experience">
       <ExperienceCard skills={skills} />

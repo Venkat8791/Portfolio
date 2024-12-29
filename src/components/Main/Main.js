@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./Main.module.css";
-import AboutMe from "./AboutMe";
-import ExperienceSection from "./ExperienceSection";
-import ProjectsSection from "./ProjectsSection";
+import ProjectsSection from "../Project/ProjectsSection";
+import AboutMe from "../About/AboutMe";
+import ExperienceSection from "../Experience/ExperienceSection";
 
 function Main() {
   return (

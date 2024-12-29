@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./Bio.module.css";
-import Navigation from "./Navigation";
-import SocialMedia from "./SocialMedia";
-
+import SocialMedia from "../Header/SocialMedia";
+import Navigation from "../Header/Navigation";
 function Bio() {
   return (
     <div className={styles.bio}>

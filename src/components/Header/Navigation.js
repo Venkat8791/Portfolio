@@ -4,7 +4,7 @@ import styles from "./Navigation.module.css";
 function Navigation() {
   return (
     <nav className={styles.nav}>
-      <ul>
+      <ul className={styles.navmenu}>
         <li className={styles["list-item"]}>
           <a href="/">About</a>
         </li>

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./ExperienceCard.module.css";
-import SkillSet from "./SkillSet";
+import SkillSet from "../Skills/SkillSet";
 function ExperienceCard({ skills }) {
   return (
     <div className={styles.card}>

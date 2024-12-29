@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./Icon";
+import Icon from "../UI/Icon";
 import styles from "./SocialMedia.module.css";
 
 function SocialMedia() {
