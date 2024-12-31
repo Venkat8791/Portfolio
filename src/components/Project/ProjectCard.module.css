@@ -9,7 +9,7 @@
 @media (min-width: 1000px) {
   .projectCard {
     margin: 2rem auto;
-    gap: 0.5rem;
+    gap: 1rem;
   }
 }
 
