@@ -7,7 +7,7 @@ function SocialMedia() {
   return (
     <ul className={styles.socialmedia}>
       {icons.map((icon) => (
-        <Icon name={icon} />
+        <Icon name={icon} key={icon} />
       ))}
     </ul>
   );

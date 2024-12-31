@@ -3,7 +3,7 @@ import styles from "./ExperienceCard.module.css";
 import SkillSet from "../Skills/SkillSet";
 function ExperienceCard({ skills }) {
   return (
-    <div className={styles.card}>
+    <div className={styles.experienceCard}>
       <div className={styles.period}>
         <p>2022 - Present</p>
       </div>

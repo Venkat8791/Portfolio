@@ -1,7 +1,5 @@
 .nav {
-  /* margin: 10px; */
-  /* padding: 10px; */
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 ul.navmenu li {
@@ -37,4 +35,11 @@ ul.navmenu li:hover::before {
 .list-item a {
   text-decoration: none;
   color: rgb(148, 163, 184);
+}
+
+/* media queries */
+@media (min-width: 1000px) {
+  .nav {
+    margin-top: 4rem;
+  }
 }

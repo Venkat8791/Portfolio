@@ -1,9 +1,16 @@
 .projectCard {
   display: flex;
   margin: 1rem auto;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 0.5rem;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .projectCard {
+    margin: 2rem auto;
+    gap: 0.5rem;
+  }
 }
 
 .projectCard:hover {
@@ -23,6 +30,5 @@
 
 .projectDescription {
   margin-top: 0.5rem;
-  margin-bottom: 0px;
   color: rgb(148, 163, 184);
 }
