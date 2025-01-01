@@ -1,9 +1,38 @@
 .projectCard {
-  display: flex;
   margin: 1rem auto;
   padding: 1rem;
   border-radius: 0.5rem;
-  gap: 1rem;
+}
+
+.projectImg {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-top: 1rem;
+}
+
+.project {
+  width: 100%;
+}
+
+@media (min-width: 500px) {
+  .projectCard {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    margin: 2rem auto;
+    gap: 1rem;
+  }
+
+  .projectImg {
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .project {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -16,16 +45,6 @@
 .projectCard:hover {
   cursor: pointer;
   background-color: rgb(34, 49, 86);
-}
-
-.projectImg {
-  width: 25%;
-  height: auto;
-  object-fit: contain;
-}
-
-.project {
-  width: 75%;
 }
 
 .projectDescription {
