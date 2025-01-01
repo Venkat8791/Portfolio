@@ -1,9 +1,27 @@
 .experienceCard {
-  display: flex;
   margin: 2rem auto;
-  gap: 0.5rem;
   border-radius: 0.5rem;
   padding: 1rem;
+}
+
+.period {
+  color: rgb(148, 163, 184);
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 500px) {
+  .experienceCard {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .period {
+    width: 25%;
+  }
+
+  .work {
+    width: 75%;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -16,15 +34,6 @@
 .experienceCard:hover {
   cursor: pointer;
   background-color: rgb(34, 49, 86);
-}
-
-.period {
-  width: 25%;
-  color: rgb(148, 163, 184);
-}
-
-.work {
-  width: 75%;
 }
 
 .description {

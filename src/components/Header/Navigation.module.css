@@ -1,5 +1,6 @@
 .nav {
   margin-top: 2rem;
+  display: none;
 }
 
 ul.navmenu li {
@@ -40,6 +41,7 @@ ul.navmenu li:hover::before {
 /* media queries */
 @media (min-width: 1000px) {
   .nav {
+    display: block;
     margin-top: 4rem;
   }
 }

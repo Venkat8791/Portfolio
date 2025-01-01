@@ -3,7 +3,6 @@ import styles from "./ProjectCard.module.css";
 function ProjectCard() {
   return (
     <div className={styles.projectCard}>
-      <img className={styles.projectImg} alt="img" src="imgs/Spotify.png" />
       <div className={styles.project}>
         <h4 className={styles.projectName}>Spotify Clone</h4>
         <p className={styles.projectDescription}>
@@ -14,6 +13,7 @@ function ProjectCard() {
           corporation, and a digital product studio.
         </p>
       </div>
+      <img className={styles.projectImg} alt="img" src="imgs/Spotify.png" />
     </div>
   );
 }
